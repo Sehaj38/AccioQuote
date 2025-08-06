@@ -1,16 +1,17 @@
 # AccioQuote
 
-The Hogwarts command prints a random quote from the data.txt file located in /home/$USER/data.txt
+# 🧙‍♂️ AccioQuote
 
-copy the data.txt and random_line.sh file to /home/$USER/
+A simple terminal command that gives you a random Hogwarts quote every time you run hogwarts.
 
-run 
-chmod +x random_line.sh
-to make the script executable.
+---
 
-run
-nano ~/.bashrc
-and add "alias hogwarts='/home/$USER/random_line.sh'"
+## 📦 Installation
 
+Just run the following commands in your terminal:
 
-enter hogwarts to run the script
+```bash
+git clone https://github.com/Sehaj38/AccioQuote.git
+cd AccioQuote
+chmod +x install.sh
+./install.sh
